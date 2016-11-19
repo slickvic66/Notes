@@ -1,0 +1,43 @@
+.canvas {
+  width: 800px;
+  height: 600px;
+  background-image: url('./simpsons.jpg');
+  background-size: cover;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.facebox {
+  border: 3px solid black;
+  border-radius: 50px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+}
+
+.name {
+  background-color: #6699FF;
+  color: black;
+  text-align: center;
+  width: 100%;
+  border-radius: 50px;
+  position: absolute;
+  top: -10px;
+  right: -70px;
+  border: 2px solid white;
+}
+
+.input-box {
+  position: absolute;
+}
+
+input {
+  position: absolute;
+  left: -13px;
+  bottom: -25px;
+}
